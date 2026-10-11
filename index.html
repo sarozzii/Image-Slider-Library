@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modular Image Slider Library</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="slider-container">
+        <!-- Viewport Mask -->
+        <div class="slider-viewport" id="sliderViewport">
+            <!-- Sliding Track -->
+            <div class="slider-track" id="sliderTrack">
+                <div class="slide"><img src="https://picsum.photos/id/1015/800/500" alt="Landscape 1"></div>
+                <div class="slide"><img src="https://picsum.photos/id/1016/800/500" alt="Landscape 2"></div>
+                <div class="slide"><img src="https://picsum.photos/id/1019/800/500" alt="Landscape 3"></div>
+                <div class="slide"><img src="https://picsum.photos/id/1025/800/500" alt="Landscape 4"></div>
+            </div>
+        </div>
+
+        <!-- Navigation Arrows -->
+        <button class="slider-btn prev-btn" id="prevBtn" aria-label="Previous Slide">&#10094;</button>
+        <button class="slider-btn next-btn" id="nextBtn" aria-label="Next Slide">&#10095;</button>
+
+        <!-- Indicator Dots Container -->
+        <div class="slider-dots" id="sliderDots"></div>
+    </main>
+
+    <script src="slider.js"></script>
+</body>
+</html>
